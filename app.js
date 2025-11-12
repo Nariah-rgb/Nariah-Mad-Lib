@@ -69,8 +69,10 @@ let userVerb = prompt("A verb");
 let userThingSecond = prompt ("A Thing");
 let userLiquid = prompt ("A liquid");
 let userAdjSecond = prompt ("Another Adjective ending with -est")
+let userAdjThird = prompt ("Another Adjective")
+let userRandomSecond = prompy ${Another Random thing}
 
-let myStory = `<p><b>${userName}</b> goes out to dinner in <b>${userPlace}</b> with a <b>${userThing}</b> named <b>${userNameSecond}</b> and they eat <b>${userFood}</b>, while talking about <b>${userRandom}</b>. All of a sudden a <b>${userAdj} ${userAnimal}</b> comes in and <b>${userVerb}</b> the waiter. That's when I noticed <b>${userNameSecond}</b> was wearing a <b>${userThingSecond}</b> on their head. It made me laugh so hard <b>${userLiquid}</b> was coming out my mouth. The dinnerIn the end it was <b>${userAdjSecond}</b> dinner ever.</p>`;
+let myStory = `<p><b>${userName}</b> goes out to dinner in <b>${userPlace}</b> with a <b>${userThing}</b> named <b>${userNameSecond}</b> and they eat <b>${userFood}</b>, while talking about <b>${userRandom}</b>. All of a sudden a <b>${userAdj} ${userAnimal}</b> comes in and <b>${userVerb}</b> the waiter. That's when I noticed <b>${userNameSecond}</b> was wearing a <b>${userThingSecond}</b> on their head. It made me laugh so hard <b>${userLiquid}</b> was coming out my mouth. The dinner ended up a mess and ${userNameSecond} got really ${userAdjThird} and I ended up driving home in a ${userRandomSecond}. In the end it was <b>${userAdjSecond}</b> dinner ever.</p>`;
 
 
 
