@@ -55,3 +55,23 @@
    - Comments: Explain each step in your code.
    - GitHub: Commit often with clear messages; publish on GitHub Pages.
 */
+
+
+let userName = prompt("Your Name");
+let userPlace = prompt("A Place");
+let userThing = prompt("A Thing");
+let userFood = prompt("Favorite Food");
+let userNameSecond = prompt ("A Name for a Person");
+let userRandom = prompt("Something Random");
+let userAnimal = prompt("An Animal");
+let userAdj = prompt("An adjective");
+let userVerb = prompt("A verb");
+let userThingSecond = prompt ("A Thing");
+let userLiquid = prompt ("A liquid");
+let userAdjSecond = prompt ("Another Adjective ending with -est")
+
+let myStory = `<p><b>${userName}</b> goes out to dinner in <b>${userPlace}</b> with a <b>${userThing}</b> named <b>${userNameSecond}</b> and they eat <b>${userFood}</b>, while talking about <b>${userRandom}</b>. All of a sudden a <b>${userAdj} ${userAnimal}</b> comes in and <b>${userVerb}</b> the waiter. That's when I noticed <b>${userNameSecond}</b> was wearing a <b>${userThingSecond}</b> on their head. It made me laugh so hard <b>${userLiquid}</b> was coming out my mouth. In the end it was <b>${userAdjSecond}</b> dinner ever.</p>`;
+
+
+
+document.getElementById("madlib-output").innerHTML = myStory
