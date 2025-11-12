@@ -5,6 +5,8 @@
 
 .card {
   border-radius: var(--card-radius);
+  background-color: #BA274A;
+  text-shadow: black 3px;
 }
 
 #madlib-output {
@@ -12,3 +14,39 @@
   line-height: 1.6;
   font-size: 1.05rem;
 }
+header {
+  color:white;
+  background-color:#BA274A;
+  
+}
+
+card {
+  background-color: #BA274A;
+  
+}
+
+body {
+  background-color:#FAF3DD;
+  font-family: "reiher-headline", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+footer {
+  background-color:#BA274A;
+}
+
+h2 {
+  color:white;
+
+}
+
+p {
+  color:white;
+}
+
+.h5 {
+  color:white;
+}
+
+
